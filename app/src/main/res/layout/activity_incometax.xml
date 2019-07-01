@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.IncomeTaxActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.wxf.incometax.views.CommonTitleBarView
+            android:id="@+id/commontitle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_48"></com.wxf.incometax.views.CommonTitleBarView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            android:paddingBottom="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:text="@string/income"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <EditText
+            android:id="@+id/et_income"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_shape"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:hint="@string/income_input"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="@dimen/dp_8"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_12"
+            android:paddingBottom="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            android:text="@string/accumulationfund_base"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <EditText
+            android:id="@+id/et_accumulationfund"
+            android:layout_width="match_parent"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:background="@drawable/et_shape"
+            android:inputType="numberDecimal"
+            android:hint="@string/accumulationfund_input"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:paddingBottom="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            android:text="@string/insurance_base"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <EditText
+            android:id="@+id/et_insurance"
+            android:layout_marginTop="@dimen/dp_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_shape"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:inputType="numberDecimal"
+            android:hint="@string/insurance_input"
+            android:textColor="@color/font_black"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <TextView
+            android:layout_marginTop="@dimen/dp_12"
+            android:id="@+id/tv_calculate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:background="@drawable/shape_btn_blue"
+            android:gravity="center_horizontal"
+            android:text="@string/calculate"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:visibility="invisible"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_12"
+            android:layout_marginRight="@dimen/dp_12"
+            android:paddingBottom="@dimen/dp_4"
+            android:lineSpacingExtra="@dimen/dp_4"
+            android:paddingTop="@dimen/dp_4"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <TextView
+            android:id="@+id/tv_get_red_packet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/dp_4"
+            android:layout_marginLeft="@dimen/dp_24"
+            android:layout_marginRight="@dimen/dp_24"
+            android:paddingTop="@dimen/dp_4"
+            android:text="@string/get_red_packet"
+            android:gravity="center_horizontal"
+            android:textColor="@color/red"
+            android:textSize="@dimen/fontsizenormal" />
+    </LinearLayout>
+</ScrollView>

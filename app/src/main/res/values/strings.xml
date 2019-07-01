@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">新个税计算器</string>
+    <string name="income">工资：</string>
+    <string name="income_input">请输入你的工资</string>
+    <string name="insurance_base">社保基数:</string>
+    <string name="insurance_input">请输入社保基数</string>
+    <string name="accumulationfund_base">公积金基数:</string>
+    <string name="accumulationfund_input">请输入公积金基数</string>
+    <string name="calculate">计算</string>
+    <string name="re_calulate">重新计算</string>
+    <string name="get_red_packet">领个红包吧</string>
+    <string name="incometomany">你太会装逼了，不跟你玩</string>
+    <string name="incometoohigh">你的工资有点高，我有恐高症</string>
+    <string name="found_toomany">公积金基数不能超过工资</string>
+    <string name="insurance_toomany">社保基数不能超过工资</string>
+    <string name="title">个税计算器</string>
+    <string name="apply_info">支付宝红包再升级，红包种类更多，金额更大！人人可领，天天可领！长按复制此消息，打开支付宝领红包！aMIlZb03qE</string>
+    <string name="open_apply">打开支付即可领取红包</string>
+    <string name="tips">扫描二维码或长按后打开支付宝</string>
+</resources>

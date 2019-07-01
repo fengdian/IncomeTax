@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padingleft">12dp</dimen>
+    <dimen name="padingright">12dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="fontsizenormal">16sp</dimen>
+    <dimen name="fontsizbig">18sp</dimen>
+    <dimen name="fontsizesmall">14sp</dimen>
+    <dimen name="margin_edge">12dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+</resources>

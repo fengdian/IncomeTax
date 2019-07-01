@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_common_title_bar2"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/blue" >
+
+    <RelativeLayout
+        android:id="@+id/rl_area_left"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/title_iv_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_edge"
+            android:background="@null"
+            android:src="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/title_tv_left"
+            android:text="123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/title_iv_left"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/fontsizenormal" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title_tv_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:text="123"
+        android:textColor="@color/white"
+        android:textSize="@dimen/fontsizenormal" />
+
+    <RelativeLayout
+        android:id="@+id/rl_area_right"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/title_tv_center"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/dp_48"
+
+        android:layout_marginRight="@dimen/margin_edge"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/title_tv_right"
+            android:text="123"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/fontsizenormal" />
+
+        <ImageView
+            android:id="@+id/title_iv_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+         />
+    </RelativeLayout>
+
+</RelativeLayout>
